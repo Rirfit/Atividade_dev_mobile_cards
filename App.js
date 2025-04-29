@@ -47,7 +47,7 @@ export default function App() {
 
   const handleBuy = () => {
     if (selectedProduct) {
-      alert(`Produto: ${selectedProduct.title}\nPreço: R$${selectedProduct.price.toFixed(2)}`);
+      alert(`Produto: ${selectedProduct.title}\nPreço: R$${selectedProduct.price.toFixed(2)} \nComprado com sucesso`);
     } else {
       alert('Nenhum produto selecionado.');
     }
